@@ -7,7 +7,7 @@ use App\Services\EmbedService;
 use DTOs\EmbedField;
 
 // Set embed URL
-EmbedService::setEmbedURL("https://discord.com/api/webhooks/1469047681958678680/6h0UU8WUKSFx7OxBriQSV3Fl7V5IkPpkPK9s29sLa4OZBP0rBtAmGjE_51hlpEzWZG1i");
+// EmbedService::setEmbedURL("https://discord.com/api/webhooks/channel_id/hook_token");
 
 // First test
 $lolProfileEmbed = new EmbedBuilder()
