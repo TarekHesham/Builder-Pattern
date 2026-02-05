@@ -1,0 +1,6 @@
+services:
+  php:
+    image: php:fpm-alpine3.23
+    volumes:
+      - ./:/var/www/html
+    working_dir: /var/www/html
